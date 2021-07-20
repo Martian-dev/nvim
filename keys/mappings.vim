@@ -38,5 +38,8 @@ vnoremap > >gv
 " nerdtree
 nnoremap <M-b> :NERDTreeToggle<CR>
 
+" Closing a buffer
+nnoremap <C-q> :bdelete<CR>
+
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
