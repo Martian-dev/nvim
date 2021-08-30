@@ -3,7 +3,7 @@ My NeoVim Config files.
 
 Make sure to install NodeJs before installing coc, also run the following command in the terminal
 ```bash
-npm i -g neovim
+npm i -g neovim && pip install pynvim
 ```
 
 Recommended Coc Extensions
