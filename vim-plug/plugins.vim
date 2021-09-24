@@ -20,10 +20,16 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Themes
     Plug 'joshdick/onedark.vim'
     " Intellisense
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    " Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    " Nvim Native LSP
+    Plug 'neovim/nvim-lspconfig'
     " Status Line
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
+    " Fuzzy Finder (fzf)
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
+    Plug 'airblade/vim-rooter' 
 
 
 call plug#end()
