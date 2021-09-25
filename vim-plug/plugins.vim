@@ -30,6 +30,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
     Plug 'airblade/vim-rooter' 
+    " Git Integration (vim-fugitive)
+    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-rhubarb'
+    " HTML & CSS Support (emmet)
+    Plug 'mattn/emmet-vim'
 
 
 call plug#end()
