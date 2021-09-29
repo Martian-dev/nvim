@@ -35,6 +35,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-rhubarb'
     " HTML & CSS Support (emmet)
     Plug 'mattn/emmet-vim'
+    " Telescope (Fuzzy Finder)
+    Plug 'nvim-lua/plenary.nvim'
+    Plug 'nvim-telescope/telescope.nvim'
 
 
 call plug#end()

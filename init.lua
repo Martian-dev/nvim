@@ -4,6 +4,7 @@ vim.g.mapleader = " "
 -- Importing Configs
 -- vim.cmd("source $HOME/.config/nvim/general/settings.vim")
 require('settings')
+require('mappings')
 vim.cmd("source $HOME/.config/nvim/vim-plug/plugins.vim")
 vim.cmd("source $HOME/.config/nvim/keys/mappings.vim")
 vim.cmd("source $HOME/.config/nvim/themes/onedark.vim")

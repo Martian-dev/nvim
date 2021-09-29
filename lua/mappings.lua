@@ -17,3 +17,10 @@ map('n', '<leader>q', ':q<CR>', {noremap = true}) -- Quit
 map('n', '<leader>c', ':bd<CR>', {noremap = true}) -- Close a buffer
 
 map('n', '<leader>w', ':w<CR>', {noremap = true}) -- Save the open buffer
+
+-- Telescope keybindings
+map('n', '<leader>ff', '<cmd>Telescope find_files<CR>', {noremap = true})
+map('n', '<leader>fg', '<cmd>Telescope live_grep<CR>', {noremap = true})
+map('n', '<leader>fb', '<cmd>Telescope buffers<CR>', {noremap = true})
+map('n', '<leader>fh', '<cmd>Telescope help_tags<CR>', {noremap = true})
+
