@@ -9,4 +9,10 @@ require("nvim-treesitter.configs").setup({
 	indent = {
 		enable = true,
 	},
+  autotag = {
+      enable = true,
+  },
+  refactor = {
+    highlight_definitions = { enable = true },
+  },
 })
