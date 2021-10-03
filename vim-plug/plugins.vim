@@ -38,6 +38,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Telescope (Fuzzy Finder)
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
+    " Nvim-Treesitter
+    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 
 
 
 call plug#end()

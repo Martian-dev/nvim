@@ -17,6 +17,11 @@ map('n', '<leader>q', ':q<CR>', {noremap = true}) -- Quit
 map('n', '<leader>c', ':bd<CR>', {noremap = true}) -- Close a buffer
 
 map('n', '<leader>w', ':w<CR>', {noremap = true}) -- Save the open buffer
+map('i', '<C-S>', '<Esc>:w<CR>', {noremap = true}) -- Save the open buffer while in insert mode
+
+-- Selecting the whole file
+vim.api.nvim_set_keymap("n", "<C-A>", "ggVG", { noremap = true }) -- Selecting the whole file in normal mode
+vim.api.nvim_set_keymap("i", "<C-A>", "<Esc> ggVG", { noremap = true }) -- Selecting the whole file in insert mode
 
 -- Telescope keybindings
 map('n', '<leader>ff', '<cmd>Telescope find_files<CR>', {noremap = true})
