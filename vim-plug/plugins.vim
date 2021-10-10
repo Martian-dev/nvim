@@ -19,6 +19,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'jiangmiao/auto-pairs'
     " Themes
     Plug 'joshdick/onedark.vim'
+    Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
     " Intellisense
     " Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Nvim Native LSP
@@ -40,6 +41,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'nvim-telescope/telescope.nvim'
     " Nvim-Treesitter
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 
+    " BufferLine
+    Plug 'kyazdani42/nvim-web-devicons' " Recommended (for coloured icons)
+    " Plug 'ryanoasis/vim-devicons' Icons without colours
+    Plug 'akinsho/bufferline.nvim'
 
 
 call plug#end()

@@ -17,3 +17,5 @@ require('treesitter-config')
 -- Native LSP
 require'lspconfig'.pyright.setup{}
 
+-- Bufferline :wink:
+require"bufferline".setup{}
