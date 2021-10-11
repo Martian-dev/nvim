@@ -29,3 +29,29 @@ map('n', '<leader>fg', '<cmd>Telescope live_grep<CR>', {noremap = true})
 map('n', '<leader>fb', '<cmd>Telescope buffers<CR>', {noremap = true})
 map('n', '<leader>fh', '<cmd>Telescope help_tags<CR>', {noremap = true})
 
+-- Navigating between buffers
+map('n', '<S-l>', ':bnext<CR>', { noremap = true })
+map('n', '<S-h>', ':bprevious<CR>', { noremap = true })
+
+-- Better nav for omnicomplete
+vim.cmd('inoremap <expr> <c-j> ("\\<C-n>")')
+vim.cmd('inoremap <expr> <c-k> ("\\<C-p>")')
+
+-- I Sometimes Type Q and W instead of q or w, so make things easier for me
+vim.cmd('command W :w')
+vim.cmd('command Q :q')
+
+-- Use control-[ instead of escape
+map('n', '<C-[', '<Esc>', { noremap = true })
+map('i', 'kj', '<Esc>', { noremap = true })
+map('i', 'jk', '<Esc>', { noremap = true })
+
+-- Better tabbing
+map('v', '<', '<gv', { noremap = true })
+map('v', '>', '>gv', { noremap = true })
+
+map('n', '<leader>o', 'o<Esc>^Da', { noremap = true })
+map('n', '<leader>O', 'O<Esc>^Da', { noremap = true })
+
+-- NerdTree
+map('n', '<leader>e', ':NERDTreeToggle<CR>', { noremap = true })

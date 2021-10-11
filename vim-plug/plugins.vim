@@ -20,6 +20,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Themes
     Plug 'joshdick/onedark.vim'
     Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+    Plug 'LunarVim/onedarker.nvim'
     " Intellisense
     " Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Nvim Native LSP

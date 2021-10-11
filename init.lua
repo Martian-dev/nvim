@@ -6,8 +6,8 @@ vim.g.mapleader = " "
 require('settings')
 require('mappings')
 vim.cmd("source $HOME/.config/nvim/vim-plug/plugins.vim")
-vim.cmd("source $HOME/.config/nvim/keys/mappings.vim")
-vim.cmd("source $HOME/.config/nvim/themes/onedark.vim")
+-- vim.cmd("source $HOME/.config/nvim/keys/mappings.vim")
+-- vim.cmd("source $HOME/.config/nvim/themes/onedark.vim")
 vim.cmd("source $HOME/.config/nvim/themes/airline.vim")
 vim.cmd("source $HOME/.config/nvim/plug-config/fzf.vim")
 vim.cmd("source $HOME/.config/nvim/plug-config/emmet.vim")
@@ -19,3 +19,5 @@ require'lspconfig'.pyright.setup{}
 
 -- Bufferline :wink:
 require"bufferline".setup{}
+
+vim.cmd("colorscheme onedarker")
