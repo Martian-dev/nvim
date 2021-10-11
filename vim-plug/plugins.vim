@@ -13,14 +13,15 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " File Explorer
     Plug 'scrooloose/NERDTree'
     " Customizations for the File-Explorer (NERDTree)
+    Plug 'kyazdani42/nvim-web-devicons' " Recommended (for coloured icons)
     Plug 'ryanoasis/vim-devicons'
     Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     " Themes
-    Plug 'joshdick/onedark.vim'
+    " Plug 'joshdick/onedark.vim'
     Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
-    Plug 'LunarVim/onedarker.nvim'
+    " Plug 'LunarVim/onedarker.nvim'
     " Intellisense
     " Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Nvim Native LSP
@@ -28,6 +29,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Status Line
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
+    Plug 'hoob3rt/lualine.nvim'
     " Fuzzy Finder (fzf)
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
@@ -43,8 +45,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Nvim-Treesitter
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 
     " BufferLine
-    Plug 'kyazdani42/nvim-web-devicons' " Recommended (for coloured icons)
-    " Plug 'ryanoasis/vim-devicons' Icons without colours
     Plug 'akinsho/bufferline.nvim'
 
 
