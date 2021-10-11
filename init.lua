@@ -20,3 +20,5 @@ require"bufferline".setup{}
 require('lualine').setup{
   options = {theme = 'tokyonight'}
 }
+
+vim.g.dashboard_default_executive = 'telescope'

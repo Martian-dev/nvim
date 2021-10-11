@@ -46,6 +46,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 
     " BufferLine
     Plug 'akinsho/bufferline.nvim'
+    " Dashboard
+    Plug 'glepnir/dashboard-nvim'
 
 
 call plug#end()
