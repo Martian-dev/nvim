@@ -48,6 +48,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'akinsho/bufferline.nvim'
     " Dashboard
     Plug 'glepnir/dashboard-nvim'
+    " Indent-blankline
+    Plug 'lukas-reineke/indent-blankline.nvim'
 
 
 call plug#end()

@@ -36,14 +36,14 @@ opt.showtabline = 2
 opt.showmode = false
 opt.updatetime = 300 -- Update cursorHold and save swap every 2000ms
 opt.timeoutlen = 200 -- time between keystrokes of mappings
-opt.compatibility = false
+opt.compatible = false
 opt.formatoptions:remove { "c", "r", "o" }
 opt.clipboard = 'unnamedplus'
 
 opt.foldlevel = 0
 opt.joinspaces = false
 opt.completeopt = "menuone,noselect"
-opt.signcolumn = "yes:3" -- always signcolumn, 3 wide
+opt.signcolumn = "yes:1" -- always signcolumn, 1 wide
 opt.termguicolors = true
 
 opt.list = true -- show some hidden characters
