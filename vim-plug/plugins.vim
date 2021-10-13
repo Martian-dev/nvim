@@ -10,25 +10,15 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
-    " File Explorer
-    Plug 'scrooloose/NERDTree'
-    " Customizations for the File-Explorer (NERDTree)
     Plug 'kyazdani42/nvim-web-devicons' " Recommended (for coloured icons)
-    Plug 'ryanoasis/vim-devicons'
-    Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+    " File Explorer
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     " Themes
-    " Plug 'joshdick/onedark.vim'
     Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
-    " Plug 'LunarVim/onedarker.nvim'
-    " Intellisense
-    " Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Nvim Native LSP
     Plug 'neovim/nvim-lspconfig'
     " Status Line
-    Plug 'vim-airline/vim-airline'
-    Plug 'vim-airline/vim-airline-themes'
     Plug 'hoob3rt/lualine.nvim'
     " Fuzzy Finder (fzf)
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }

@@ -11,12 +11,10 @@ vim.cmd("source $HOME/.config/nvim/plug-config/fzf.vim")
 vim.cmd("source $HOME/.config/nvim/plug-config/emmet.vim")
 require('treesitter-config')
 require('configs/blankline')
+require('configs/bufferline')
 
 -- Native LSP
 require'lspconfig'.pyright.setup{}
-
--- Bufferline :wink:
-require"bufferline".setup{}
 
 require('lualine').setup{
   options = {theme = 'tokyonight'}
