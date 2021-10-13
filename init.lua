@@ -4,18 +4,13 @@ vim.g.mapleader = " "
 -- Importing Configs
 require('settings')
 require('mappings')
-vim.cmd("source $HOME/.config/nvim/vim-plug/plugins.vim")
+require('plugins')
 require('theme')
-vim.cmd("source $HOME/.config/nvim/plug-config/fzf.vim")
-vim.cmd("source $HOME/.config/nvim/plug-config/emmet.vim")
-require('treesitter-config')
-require('configs/blankline')
-require('configs/bufferline')
-require('configs/lualine')
+-- vim.cmd("source $HOME/.config/nvim/plug-config/emmet.vim")
 
 -- Native LSP
-require'lspconfig'.pyright.setup{}
+-- require'lspconfig'.pyright.setup{}
 
-require'nvim-tree'.setup()
+-- require'nvim-tree'.setup()
 
-vim.g.dashboard_default_executive = 'telescope'
+-- vim.g.dashboard_default_executive = 'telescope'
