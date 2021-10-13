@@ -10,8 +10,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
-    Plug 'kyazdani42/nvim-web-devicons' " Recommended (for coloured icons)
     " File Explorer
+    Plug 'kyazdani42/nvim-web-devicons' " Recommended (for coloured icons)
+    Plug 'kyazdani42/nvim-tree.lua'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     " Themes

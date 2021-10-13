@@ -20,4 +20,6 @@ require('lualine').setup{
   options = {theme = 'tokyonight'}
 }
 
+require'nvim-tree'.setup()
+
 vim.g.dashboard_default_executive = 'telescope'
