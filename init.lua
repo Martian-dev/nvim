@@ -10,7 +10,7 @@ require('theme')
 vim.cmd("source $HOME/.config/nvim/plug-config/fzf.vim")
 vim.cmd("source $HOME/.config/nvim/plug-config/emmet.vim")
 require('treesitter-config')
-require('blankline')
+require('configs/blankline')
 
 -- Native LSP
 require'lspconfig'.pyright.setup{}

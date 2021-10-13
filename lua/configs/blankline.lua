@@ -1,8 +1,4 @@
-vim.opt.list = true
-vim.opt.listchars:append("eol:↴")
-
 require("indent_blankline").setup {
-    show_end_of_line = true,
     buftype_exclude = { "terminal", "nofile" },
     filetype_exclude = {
       "help",
@@ -43,6 +39,6 @@ require("indent_blankline").setup {
       "import_statement",
       "operation_type",
     },
-}
     -- HACK: work-around for https://github.com/lukas-reineke/indent-blankline.nvim/issues/59
-    -- vim.wo.colorcolumn = "99999"
+    colorcolumn = "99999"
+}
