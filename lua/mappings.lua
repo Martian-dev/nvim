@@ -53,5 +53,5 @@ map('v', '>', '>gv', { noremap = true })
 map('n', '<leader>o', 'o<Esc>^Da', { noremap = true })
 map('n', '<leader>O', 'O<Esc>^Da', { noremap = true })
 
--- NerdTree
-map('n', '<leader>e', ':NERDTreeToggle<CR>', { noremap = true })
+-- NvimTree
+map('n', '<leader>e', ':NvimTreeToggle<CR>', { noremap = true })

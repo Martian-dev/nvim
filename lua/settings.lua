@@ -53,8 +53,8 @@ opt.listchars = {
   trail = "•",
 }
 
-opt.foldmethod = "indent" -- use treesitter for folding
-opt.foldexpr = "nvim_treesitter#foldexpr()"
+-- opt.foldmethod = "indent" -- use treesitter for folding
+-- opt.foldexpr = "nvim_treesitter#foldexpr()"
 
 opt.undodir = vim.fn.expand "~" .. "/.vim/undodir" --directory to save undofiles
 opt.undofile = true
