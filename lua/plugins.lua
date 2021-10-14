@@ -28,7 +28,7 @@ return require('packer').startup({function(use)
 
   use {
     "kyazdani42/nvim-tree.lua",
-    cmd = { "NvimTreeToggle", "NvimTreeClose" },
+    require = 'kyazdani42/nvim-web-devicons',
     config = function()
       require "configs.nvim-tree"
     end,

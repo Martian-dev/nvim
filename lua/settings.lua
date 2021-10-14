@@ -6,11 +6,12 @@ opt.hidden = true
 opt.wrap = false
 opt.encoding = 'utf-8'
 opt.scrolloff = 5 -- start scrolling 5 lines away from top/bottom
+opt.sidescrolloff = 3
 opt.pumheight = 10
 opt.pumblend = 18
 opt.fileencoding = 'utf-8'
 opt.ruler = true
-opt.cmdheight = 1 -- height of cmd line
+opt.cmdheight = 2 -- height of cmd line
 opt.virtualedit = 'block'
 opt.iskeyword:append '-'
 opt.mouse = 'a'
@@ -19,9 +20,9 @@ opt.smartcase = true
 opt.splitbelow = true
 opt.splitright = true
 opt.conceallevel = 2
-opt.tabstop = 4
-opt.softtabstop = 4
-opt.shiftwidth = 4
+opt.tabstop = 2
+opt.softtabstop = 2
+opt.shiftwidth = 2
 opt.smarttab = true
 opt.expandtab = true
 opt.smartindent = true
@@ -39,6 +40,8 @@ opt.timeoutlen = 200 -- time between keystrokes of mappings
 opt.compatible = false
 opt.formatoptions:remove { "c", "r", "o" }
 opt.clipboard = 'unnamedplus'
+vim.cmd('filetype plugin indent on')
+opt.whichwrap = 'b,s,<,>,[,],h,l'
 
 opt.foldlevel = 0
 opt.joinspaces = false

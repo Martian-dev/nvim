@@ -13,4 +13,3 @@ require('theme')
 
 -- require'nvim-tree'.setup()
 
--- vim.g.dashboard_default_executive = 'telescope'
